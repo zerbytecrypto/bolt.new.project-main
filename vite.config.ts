@@ -13,4 +13,10 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  preview: {
+    allowedHosts: ['bolt-new-project-main.onrender.com'],
+  },
 });
+
+
+  
